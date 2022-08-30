@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Animaciones</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+
+	<body>
+
+		<!-- PRIMERA ANIMACIÓN -->
+		<div class="cuadrado verde">shalom</div>
+		<div class="cuadrado rojo"></div>
+		<div class="cuadrado azul"></div>
+		<div class="cuadrado amarillo"></div>
+
+		<!-- SEGUNDA ANIMACIÓN -->
+		<div id="emoji" class="emoji">:)</div>
+		<svg id="demo-svg" class="svg" width="800" height="500">
+		<path
+			stroke="#fff"
+			fill="none"
+			d="M 160 293 L 207 191 L 618 168 L 619 454 L 429 317 L 319 426 L 55 440 Z"
+		></path>
+		</svg>
+
+		<!-- TERCERA ANIMACIÓN -->
+		<svg id="demo-svg2" width="600" height="600">
+
+		<!-- AL CREAR EL POLÍGONO SE RECOMIENDA ELIMINAR LA M INICIAL, LA Z FINAL Y REEMPLAZAR TODAS LAS L POR ,  -->
+		<polygon
+			stroke="none"
+			fill="red"
+			points="150 450 , 50 300 , 150 150 , 650 150 , 700 450"
+		></polygon>
+		</svg>
+
+		<script src="./node_modules/animejs/lib/anime.min.js"></script>
+		<script src="index.js"></script>
+		
+	</body>
+</html>
